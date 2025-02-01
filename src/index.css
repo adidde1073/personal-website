@@ -1,6 +1,7 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
+  background-color: #252f3b;
 }
 
 h1 {
@@ -16,7 +17,7 @@ button {
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
-  color: white;
+  color: #bfbfbf;
   cursor: pointer;
   transition: border-color 0.25s;
 }
