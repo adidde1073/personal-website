@@ -43,6 +43,7 @@ jobs:
         with:
           # Upload dist folder
           path: './dist'
+          name: 'personal-site'
   # Deploy to Github Pages
   deploy:
     environment:
@@ -54,3 +55,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+          artifact_name: 'personal-site'
