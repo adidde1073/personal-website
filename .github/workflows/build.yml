@@ -43,6 +43,7 @@ jobs:
         with:
           # Upload dist folder
           path: './dist'
+          destination: ./_site
   # Deploy to Github Pages
   deploy:
     environment:
