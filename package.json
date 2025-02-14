@@ -1,6 +1,7 @@
 {
   "name": "personal-website",
   "private": true,
+  "homepage": "https://adidde1073.github.io/personal-website",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
