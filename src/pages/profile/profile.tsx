@@ -1,5 +1,6 @@
 import profile from '../../assets/profile.jpg'
 import './profile.css'
+import Counter from '../../features/counter/counter';
 
 function Profile() {
   return (
@@ -17,6 +18,7 @@ function Profile() {
           I also love photography, capturing moments and scenes that inspire me, and cooking up delicious meals in the kitchen. 
           Balancing both my professional and personal passions is something I really enjoy!
         </p>
+        <Counter></Counter>
       </div>
     </div>
   );
