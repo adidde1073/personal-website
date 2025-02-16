@@ -1,15 +1,15 @@
 import profile from '../../assets/profile.jpg'
 import './profile.css'
-import Counter from '../../features/counter/counter';
+import { CImage } from '@coreui/react'
 
 function Profile() {
   return (
     <div className="profile-container">
-      <img
+      <CImage
+        fluid
         src={profile}
-        alt="Profile"
         className="profile-picture"
-      />
+      ></CImage>
       <div className="dialogue-container">
         <p className="name">Albert Didde</p>
         <p className="dialogue">
@@ -18,7 +18,6 @@ function Profile() {
           I also love photography, capturing moments and scenes that inspire me, and cooking up delicious meals in the kitchen. 
           Balancing both my professional and personal passions is something I really enjoy!
         </p>
-        <Counter></Counter>
       </div>
     </div>
   );
