@@ -2,11 +2,6 @@ import { useState } from 'react'
 import {
   CCollapse,
   CContainer,
-  CDropdown,
-  CDropdownDivider,
-  CDropdownItem,
-  CDropdownMenu,
-  CDropdownToggle,
   CNavbar,
   CNavbarBrand,
   CNavbarNav,

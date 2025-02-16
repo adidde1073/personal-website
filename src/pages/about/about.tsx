@@ -1,4 +1,3 @@
-import Counter from '../../features/counter/counter';
 import { CContainer, CListGroup, CListGroupItem } from '@coreui/react'
 
 function About() {
