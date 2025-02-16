@@ -1,6 +1,6 @@
 import { CHeader, CContainer, CListGroup, CListGroupItem } from '@coreui/react'
 
-function About() {
+export default function AboutPage() {
   return (
     <div>
       <CContainer fluid>
@@ -24,5 +24,3 @@ function About() {
     </div>
   );
 }
-
-export default About

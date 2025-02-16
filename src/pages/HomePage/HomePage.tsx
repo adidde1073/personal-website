@@ -2,7 +2,7 @@ import profile from '../../assets/profile.jpg'
 import './HomePage.css'
 import { CContainer, CHeader, CImage } from '@coreui/react'
 
-function HomePage() {
+export default function HomePage() {
   return (
     <div className="home">
       <CContainer className='imageContainer' fluid>
@@ -24,5 +24,3 @@ function HomePage() {
     </div>
   );
 }
-
-export default HomePage;
