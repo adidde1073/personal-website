@@ -1,0 +1,19 @@
+.home {
+  margin: auto;
+  max-width: 1000px;
+}
+
+.imageContainer {
+  max-width: 750px;
+  max-height: 750px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.header {
+  padding-top: 10px;
+}
+
+.introContainer {
+  padding-top: 10px;
+}

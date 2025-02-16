@@ -30,7 +30,7 @@ function Navbar() {
                 </CNavLink>
               </CNavItem>
               <CNavItem>
-                <CNavLink href="#about">Teach Stack</CNavLink>
+                <CNavLink href="#about">Tech Stack</CNavLink>
               </CNavItem>
             </CNavbarNav>
           </CCollapse>

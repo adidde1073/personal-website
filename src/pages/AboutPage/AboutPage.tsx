@@ -1,9 +1,10 @@
-import { CContainer, CListGroup, CListGroupItem } from '@coreui/react'
+import { CHeader, CContainer, CListGroup, CListGroupItem } from '@coreui/react'
 
 function About() {
   return (
     <div>
       <CContainer fluid>
+        <CHeader>Tech Stack</CHeader>
         <CListGroup flush>
           <CListGroupItem>Typsecript</CListGroupItem>
           <CListGroupItem>React.js</CListGroupItem>
