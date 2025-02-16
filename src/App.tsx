@@ -1,17 +1,26 @@
 import { Routes, Route } from "react-router"
 import './App.css'
-import About from "./pages/AboutPage/AboutPage"
+
+/**
+ * Import Pages Block
+ */
+import AboutPage from "./pages/AboutPage/AboutPage"
 import HomePage from "./pages/HomePage/HomePage"
+import PhotographyPage from "./pages/PhotographyPage/PhotographyPage"
+
+/**
+ * Import Components Block
+ */
 import Navbar from './components/navbar'
-// import Counter from './features/counter/counter'
 
 function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
       <Routes>
-        <Route path="/about" element={<About />}/>
+        <Route path="/about" element={<AboutPage />}/>
         <Route path="/" element={<HomePage />}/>
+        <Route path="/photography" element={<PhotographyPage />}/>
       </Routes>
     </div>
   );

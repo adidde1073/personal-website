@@ -1,0 +1,21 @@
+@media only screen and (orientation: landscape) {
+  .imageBox.horizontal {
+    max-width: 60rem;
+    padding: 3rem;
+  }
+  
+  .imageBox.vertical {
+    max-width: 40rem;
+    padding: 3rem;
+  }
+}
+
+@media only screen and (orientation: portrait) {
+  .imageBox.horizontal {
+    padding: 3rem;
+  }
+  
+  .imageBox.vertical {
+    padding: 3rem;
+  }
+}

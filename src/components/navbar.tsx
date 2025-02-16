@@ -32,6 +32,9 @@ function Navbar() {
               <CNavItem>
                 <CNavLink href="#about">Tech Stack</CNavLink>
               </CNavItem>
+              <CNavItem>
+                <CNavLink href="#photography">Photography</CNavLink>
+              </CNavItem>
             </CNavbarNav>
           </CCollapse>
         </CContainer>
