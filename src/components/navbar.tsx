@@ -16,7 +16,7 @@ function Navbar() {
     <>
       <CNavbar expand="lg" className="bg-body-tertiary">
         <CContainer fluid>
-          <CNavbarBrand href="#">Navbar</CNavbarBrand>
+          <CNavbarBrand href="#">My Portfolio</CNavbarBrand>
           <CNavbarToggler
             aria-label="Toggle navigation"
             aria-expanded={visible}
