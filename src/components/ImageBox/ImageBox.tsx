@@ -1,28 +1,28 @@
 import './ImageBox.css'
-import { CImage } from '@coreui/react';
+import { CImage } from '@coreui/react'
 
 export function ImageBox(props: { 
   /**
    * The image (.jpg, .png) to display
    */
-  image: any, 
+  image: any
   /**
    * Sets the styling based on images orientation
    */
-  orientation: 'horizontal' | 'vertical'; 
+  orientation: 'horizontal' | 'vertical' 
   /**
    * The name of the camera photo was shot with
    */
-  camera: string;
+  camera: string
   /**
    * The lens used to shoot the photo
    */
   lens: string
 }) {
   return (
-    <div className={`${props.orientation} imageBox`}>
+    <div className={`${props.orientation} phtoBox`}>
       <CImage fluid src={props.image}></CImage>
-      <p>{props.camera} | {props.lens}</p>
+      <p className="phtoMetadata">{props.camera} | {props.lens}</p>
     </div>
   )
 }
