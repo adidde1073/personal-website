@@ -7,13 +7,27 @@ import { ImageBox } from '../../components/ImageBox/ImageBox'
  */
 import DallasCapital from '../../photos/Dallas_Capital.jpg'
 import CoffeLogo from '../../photos/Coffee_Logo.jpeg'
+import CafeShot from '../../photos/Rare_Bird_Cafe.png'
 
 export default function PhotographyPage() {
   return (
     <div className="phtoContainer">
       <h1 className='phtoHeader'>My Photo Portfolio</h1>
-      <ImageBox camera="Sony a77" lens="Sony DT 16-50mm f2.8" image={DallasCapital} orientation='vertical'></ImageBox>
-      <ImageBox camera="Fujifilm X-T30ii" lens="Fujinon 35mm f2" image={CoffeLogo} orientation='horizontal'></ImageBox>
+      <ImageBox 
+        camera="Sony a77" 
+        lens="Sony DT 16-50mm f2.8" 
+        image={DallasCapital} 
+        orientation='vertical' />
+      <ImageBox 
+        camera="Fujifilm X-T30ii" 
+        lens="Fujinon 35mm f2" 
+        image={CoffeLogo}
+         orientation='horizontal' />
+      <ImageBox 
+        camera="Fujifilm X-T30ii" 
+        lens="Fujinon 35mm f2" 
+        image={CafeShot}
+         orientation='vertical' />
     </div>
   )
 }

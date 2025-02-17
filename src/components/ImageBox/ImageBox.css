@@ -1,21 +1,26 @@
+.phtoMetadata {
+  margin-top: .25rem;
+  color: grey;
+}
+
 @media only screen and (orientation: landscape) {
-  .imageBox.horizontal {
+  .phtoBox.horizontal {
     max-width: 60rem;
-    padding: 3rem;
+    padding: .5rem;
   }
   
-  .imageBox.vertical {
+  .phtoBox.vertical {
     max-width: 40rem;
-    padding: 3rem;
+    padding: .5rem;
   }
 }
 
 @media only screen and (orientation: portrait) {
-  .imageBox.horizontal {
-    padding: 3rem;
+  .phtoBox.horizontal {
+    padding: .5rem;
   }
   
-  .imageBox.vertical {
-    padding: 3rem;
+  .phtoBox.vertical {
+    padding: .5rem;
   }
 }
