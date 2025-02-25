@@ -25,8 +25,8 @@ export default function HomePage() {
           Hello! My name is Albert, and I'm a full stack engineer currently working at Bloomberg, 
           creating powerful web applications using the latest technologies. 
           Things that interest me the most in the industry are cloud infrastructure, CI/CD and build tools, and backend architecture.
-          If I had to sum up my best strength as an engineer, it would be seeing the bigger picture— 
-          undestanding how separate components work together to build the whole.
+         <b>If I had to sum up my best strength as an engineer, it would be seeing the bigger picture— 
+          undestanding how separate components work together to build the whole.</b>
           <br></br>
           <br></br>
           Outside of work, my biggest interests are photography and fitness. 
@@ -44,7 +44,7 @@ export default function HomePage() {
           I discovered the joy of fitness during the pandemic. 
           Being a recent graduate, I used my newfound free time to invest in myself, and to improve my health and physique.
           I found strength and fitness training not only to have physical benefits, but also mental benefits. 
-          It teaches you patience, the importance of repitiion, and resilience to setbacks.
+          It teaches you <b>patience, the importance of repition, and resilience to setbacks.</b>
           <br></br>
           <br></br>
           Above all this, what defines me, and how I interact with the world, is my faith in Jesus Christ. 
