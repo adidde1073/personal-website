@@ -24,7 +24,7 @@ export default function HomePage() {
         <p className="dialogue">
           Hello! My name is Albert, and I'm a full stack engineer currently working at Bloomberg, 
           creating powerful web applications using the latest technologies. 
-          Things that interest me the most in the industry are cloud infrastructure, CI/CD and build tools, and backend architecture.
+          Things that interest me the most in the industry are cloud infrastructure, CI/CD and build tools, and backend architecture. 
          <b>If I had to sum up my best strength as an engineer, it would be seeing the bigger picture— 
           undestanding how separate components work together to build the whole.</b>
           <br></br>
@@ -34,21 +34,21 @@ export default function HomePage() {
           <br></br>
           <br></br>
           I grew up taking photos since I was a boy. What I find inspires me to create my best artwork is capturing things that I love. 
-          Without a doubt, my favorite shots are definitely those of my family and home state, California— as they are the subjects that have shaped me the most.
+          Without a doubt, my favorite shots are definitely those of my family and home state, California— as they are the subjects that have shaped me the most. 
           The biggest life lesson I've learned is to <b>always focus on the main subject; </b>
           understanding your subject and what makes it intirguing helps you to compose an image that is interesting to look at. 
-          In the same way, in order to properly design a product, it is always important to understand <b>your customer is your subject</b>, so to speak.
+          In the same way, in order to properly design a product, it is always important to understand <b>your customer is your subject</b>, so to speak. 
           Although designing secure, resilient, and high performing applications matter, none of that matters if your focus is not on your customer.
           <br></br>
           <br></br>
           I discovered the joy of fitness during the pandemic. 
-          Being a recent graduate, I used my newfound free time to invest in myself, and to improve my health and physique.
+          Being a recent graduate, I used my newfound free time to invest in myself, and to improve my health and physique. 
           I found strength and fitness training not only to have physical benefits, but also mental benefits. 
-          It teaches you <b>patience, the importance of repition, and resilience to setbacks.</b>
+          It teaches you <b>patience, the importance of repition, and resilience to setbacks.</b> 
           <br></br>
           <br></br>
           Above all this, what defines me, and how I interact with the world, is my faith in Jesus Christ. 
-          Withouth Him, my life would look immensely different.
+          Withouth Him, my life would look immensely different. 
           In all that I do, I feel compelled to honor Him.
         </p>
       </CContainer>
