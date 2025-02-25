@@ -1,9 +1,12 @@
 :root {
-  font-family: var(--cui-body-font-family);
   font-size: 16px;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+body {
+  --cui-body-font-family: 'Merriweather';
 }
